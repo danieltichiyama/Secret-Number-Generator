@@ -5,7 +5,7 @@ var expect = chai.expect;
 describe('Secret Number', function() {
 
   var secretNumberGenerator = require('../secret_number');
-  var secretNumber;
+  var secretNumber; 
 
   beforeEach(function() {
     secretNumber = secretNumberGenerator();
